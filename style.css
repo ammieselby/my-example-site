@@ -1,0 +1,122 @@
+.header {
+    background-color: #006064;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 55px 0 55px;
+    flex-wrap: wrap;
+}
+
+body {
+    margin: 0;
+    font-family: "Merriweather", sans-serif;
+}
+
+.navigation a {
+    color: #b2ebf2;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+}
+
+.navigation a:hover {
+    color: #e0f7fa;
+    transform: rotate(6deg);
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.navigation li {
+    margin-left: 20px;
+    
+}
+
+.hero {
+    background-color: #80deea;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    font-weight: normal;
+    color: #006064;
+    margin: 0;
+}
+
+.hero p {
+    color: #00838f;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.photos img {
+    width: 100%;
+}
+
+.photos {
+    background-color: #80deea;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.footer {
+    background-color: #006064;
+    padding: 20px 0;
+    text-align: center;
+    color: #FFF;
+    font-size: .7rem;
+}
+
+.info {
+    background-color: #80deea;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+} 
+
+.info h1{
+        font-size: 5rem;
+        font-weight: normal;
+        color: #006064;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .info p {
+        color: #00838f;
+        font-size: 1.25rem;
+        line-height: 1.6;
+        text-align: left;
+    }
+
+    .portfolio {
+        background-color: #80deea;
+        padding: 60px 45px;
+        display: flex;
+        justify-content: center;
+    } 
+    
+    .portfolio h1{
+            font-size: 5rem;
+            font-weight: normal;
+            color: #006064;
+            margin: 0;
+            text-align: center;
+        }
+        
+        .portfolio p {
+            color: #00838f;
+            font-size: 1.25rem;
+            line-height: 1.6;
+            text-align: center;
+        }
